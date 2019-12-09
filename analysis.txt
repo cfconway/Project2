@@ -1,0 +1,7 @@
+ANALYSIS:
+
+The run time of adding to our graph,is time time it takes to parse through the CSV file, which is the amount of movies times the amount of actors, because we use a for loop to loop through the amount of each movies, and for each movie we use a for loop to loop through the amount of actors in the movie to add an edge for those actors. 
+
+ANALYSIS for Searching the graph:
+We use a a BFS so the amount of time it takes is the depth of each iteration through the edges it has, the time grows exponentially each time we don't find an edge and have to go further. We use data structures in this process that have constant time for a lot of their functions, like the q.poll, and q.add(), in order to make this search function go faster. T
+
